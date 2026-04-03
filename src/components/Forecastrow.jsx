@@ -2,8 +2,21 @@ function Forecastrow({ forecast, unit }) {
   const unitSymbol = unit === "metric" ? "°C" : "°F";
 
   return (
-    <div className="w-full flex justify-center mt-4">
-      <div className="w-full max-w-md flex gap-3 overflow-x-auto justify-center sm:grid sm:grid-cols-5 sm:gap-2">
+    <div className="w-full mt-4 flex justify-center">
+      <div
+        className="
+          w-full
+          max-w-md
+          flex
+          gap-3
+          overflow-x-auto
+          px-1
+          sm:grid
+          sm:grid-cols-5
+          sm:gap-2
+          sm:overflow-visible
+        "
+      >
         {forecast.map((item, i) => {
           const day = new Date(item.dt * 1000).toLocaleDateString("en-US", { weekday: "short" });
 
@@ -12,7 +25,20 @@ function Forecastrow({ forecast, unit }) {
           return (
             <div
               key={i}
-              className="min-w-[70px] sm:min-w-0 bg-white/10 border border-white/20 backdrop-blur-md rounded-xl p-2 sm:p-3 text-center text-white"
+              className="
+                min-w-[75px]
+                sm:min-w-0
+                bg-white/10
+                border
+                border-white/20
+                backdrop-blur-md
+                rounded-xl
+                p-2
+                sm:p-3
+                text-center
+                text-white
+                flex-shrink-0
+              "
             >
               <p className="text-xs text-white/60">{day}</p>
 
