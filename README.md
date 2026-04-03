@@ -5,6 +5,8 @@ This project demonstrates OpenWeather API integration, responsive UI design, com
 
 [Live Demo](https://weather-app-bhakti-joshi.vercel.app)
 
+[Get your api key from OpenWeather now!](https://openweathermap.org/api)
+
 FEATURES-
 1. Search weather by city name
 2. Display temperature in Celsius and Fahrenheit
