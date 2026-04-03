@@ -1,7 +1,7 @@
 🌤 WEATHER APP
 
 A responsive weather application built using React and Tailwind CSS that allows users to search for any city and view real-time weather conditions along with a short-term forecast.
-This project demonstrates API integration, responsive UI design, component-based architecture, and deployment of a modern frontend application.
+This project demonstrates OpenWeather API integration, responsive UI design, component-based architecture, and deployment of a modern frontend application.
 
 [Live Demo](https://weather-app-bhakti-joshi.vercel.app)
 
