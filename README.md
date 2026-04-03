@@ -4,6 +4,7 @@ A responsive weather application built using React and Tailwind CSS that allows 
 This project demonstrates API integration, responsive UI design, component-based architecture, and deployment of a modern frontend application.
 
 [Live Demo](https://weather-app-bhakti-joshi.vercel.app/)
+
 FEATURES-
 1. Search weather by city name
 2. Display temperature in Celsius and Fahrenheit
